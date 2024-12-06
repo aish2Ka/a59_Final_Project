@@ -1,5 +1,5 @@
 const ChartData = require("../models/chartsModal");
-const data = require("../constants/chartData");
+const data = require("../api/constants/chartData");
 
 const seedData = (req, res) => {
   // Check if Trailblazer Data already exists

@@ -1,8 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const loginRoutes = require("./routes/loginRouter");
-const chartRoutes = require("./routes/chartRouter");
-const authenticateToken = require("./middleware/authMiddleware");
+const loginRoutes = require("./loginRouter");
+const chartRoutes = require("./chartRouter");
+const authenticateToken = require("../../middleware/authMiddleware");
 const cors = require("cors");
 const PORT = process.env.PORT;
 
