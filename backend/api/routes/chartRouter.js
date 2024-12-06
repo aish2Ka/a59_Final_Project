@@ -3,7 +3,7 @@ const {
   seedData,
   getSummaryChartData,
   getReportsChartData,
-} = require("../../controllers/chartController");
+} = require("../controllers/chartController");
 
 const router = express.Router();
 
